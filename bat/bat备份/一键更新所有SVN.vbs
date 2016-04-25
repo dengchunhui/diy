@@ -1,1 +1,0 @@
-CreateObject("Wscript.Shell").Run "cmd /c 一键更新所有SVN.bat",0
