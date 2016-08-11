@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "cmd /c 新建Y-m-d格式的文件夹.bat",0

@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "cmd /c mkdir.bat",0
