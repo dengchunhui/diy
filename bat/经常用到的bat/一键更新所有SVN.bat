@@ -3,8 +3,8 @@
 set SVN=C:/Program Files/TortoiseSVN/bin
 
 :设置SVN集中管理的主目录
-set svn_path=F:\SVN相关
+set svn_path=E:
 :设置要svn更新文件夹的路径（数组中每个值以空格分隔）
-set SOURCE_ARR=%svn_path%\product %svn_path%\jxch_test %svn_path%\crm_test Z:\dch.crmdev.jxch168.com Z:\dch.dev.jxch168.com Y:\dch.dev.newjxch168.com Y:\dch.wx.jxch168.com 
+set SOURCE_ARR=%svn_path%\workCode\php %svn_path%\workCode\java %svn_path%\workCode\shell %svn_path%\work\product %svn_path%\work\LpWebPageAnalyse
 :执行svn批量更新
 for %%i in (%SOURCE_ARR%) do "%SVN%\TortoiseProc.exe" /command:update /path:"%%i" echo 1 /closeonend:2
